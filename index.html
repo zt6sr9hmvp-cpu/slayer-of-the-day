@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Slayer of the Day · Law Society niche stars</title>
+  <meta name="description" content="Five niches drawn from the Law Society of England and Wales Legal Heroes 2026. One Slayer of the Day. No faces. Not legal advice." />
+  <meta name="robots" content="index,follow" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="mast">
+    <div class="wrap mast-inner">
+      <div class="brand">
+        <span class="hum" aria-hidden="true">
+          <svg viewBox="0 0 64 64" width="28" height="28" role="img" aria-label="Hummingbird signal">
+            <path fill="#c9a227" d="M8 36c10-2 18-10 22-18 2 8 8 14 18 16-8 4-14 10-16 20-6-8-14-14-24-18z"/>
+            <path fill="#1b2a4a" d="M30 18c6-8 16-12 26-10-8 4-14 10-18 18-4-4-6-6-8-8z"/>
+            <circle cx="50" cy="12" r="2.2" fill="#1b2a4a"/>
+          </svg>
+        </span>
+        <div>
+          <p class="kicker">Daily brief · ready by 10:00 London</p>
+          <strong>Slayer of the Day</strong>
+        </div>
+      </div>
+      <nav aria-label="Primary">
+        <a href="#slayer">Today</a>
+        <a href="#niches">Five niches</a>
+        <a href="#bot">Bot copy</a>
+        <a href="#law">Law first</a>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero wrap">
+      <p class="eyebrow">Law Society of England and Wales · Legal Heroes 2026</p>
+      <h1>Absolute stars in their niche — named from official sources only.</h1>
+      <p class="lede">Six solicitors were honoured at Chancery Lane on 24 September 2026 for work that changed lives beyond the file. This site publishes five practice niches from that list, one rotating <em>Slayer of the Day</em>, a hummingbird price signal, and no faces. It is public recognition, not a recommendation and not legal advice.</p>
+      <p class="meta" id="clock"></p>
+    </section>
+    <section id="slayer" class="slayer wrap">
+      <div class="slayer-card" id="slayer-card"><p class="eyebrow">Loading today’s Slayer…</p></div>
+    </section>
+    <section id="niches" class="wrap">
+      <div class="section-head">
+        <h2>Five categories</h2>
+        <p>Drawn from the official Legal Heroes 2026 winners. Sixth winner noted under Law first.</p>
+      </div>
+      <div class="grid" id="niche-grid"></div>
+    </section>
+    <section id="bot" class="wrap bot">
+      <div class="section-head">
+        <h2>10:00 marketing copy</h2>
+        <p>Plain text, no portraits. Copy button uses the same facts as the page.</p>
+      </div>
+      <pre id="bot-copy" class="bot-copy"></pre>
+      <div class="actions">
+        <button type="button" id="copy-btn">Copy today’s brief</button>
+        <a class="btn-ghost" href="https://solicitors.lawsociety.org.uk/" rel="noopener noreferrer">Find a Solicitor (official)</a>
+        <a class="btn-ghost" href="https://www.sra.org.uk/" rel="noopener noreferrer">Check SRA</a>
+      </div>
+    </section>
+    <section id="law" class="wrap law">
+      <h2>Law first — Intercity and every Gerber Enterprises company</h2>
+      <ul>
+        <li>This page does not provide legal advice and does not create a solicitor–client relationship.</li>
+        <li>It does not advertise reserved legal activities for any unauthorised person.</li>
+        <li>Named individuals are publicly reported Law Society Legal Heroes 2026. Awards are not a guarantee for any particular matter.</li>
+        <li>Before any instruction: confirm the person is on the SRA roll, use Law Society Find a Solicitor, run conflicts, agree a client-care letter and a written fee estimate.</li>
+        <li>Fees depend on funding (legal aid, legal expenses insurance, or private), complexity, and the firm’s terms. The hummingbird is a range signal only.</li>
+        <li>No referral fee is paid or received in connection with this publication.</li>
+        <li>Sources: Law Society press release 24 September 2026; Law Gazette report of the same ceremony.</li>
+      </ul>
+      <p class="fine">Sixth official winner not given a separate card: Rakesh Veja — legal-aid Court of Protection solicitor; Leicester South Food Bank community legal clinic.</p>
+    </section>
+  </main>
+  <footer class="wrap foot">
+    <p>Publishing desk · London · public-interest brief · not a law firm site.</p>
+    <p><a href="legal.html">Full notice</a> · Sources must be re-checked before each republish.</p>
+  </footer>
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
